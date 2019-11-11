@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="js/script.js"></script>
+
+<head>
+
+</head>
+
+<body>
+
+    <div class="banner">
+        <div class="visual-banner">
+
+            <div class="banner-images">
+                <img id="banner-logo" src="img/woolies-logo.png" alt="woolworths logo">
+                <img id="banner-search" src="img/search-icon.png" alt="search icon">
+                <img id="banner-shopping-cart" src="img/shopping-cart-icon.png" alt="shopping-cart">
+                <img id="banner-sidebar" src="img/banner-sidebar.png" alt="sidebar">
+            </div>
+        </div>
+
+        <div class="banner-words">
+            <a id="banner-login">Login</a>
+            <a href="Sign Up Page1.html">Sign Up</a>
+        </div>
+    </div>
+
+    <div class="progress-bar"></div>
+
+    <h1 class="signup-heading">Sign Up</h1>
+
+    <div id="signup1">
+        <form onsubmit="return validate();" action="Sign Up Page2.html" method="post">
+            <label>
+                <input id="signup-inputs-firstname" type="text" name="name" placeholder="First Name"required/>
+            </label>
+
+            <label>
+                <input id="signup-inputs-lastname" type="text" name="name" placeholder="Last Name"required/>
+            </label>
+
+
+            <label id="signup-date-of-birth">
+                <p>Date of Birth</p>
+                <input id="signup-inputs-dob" type="date" name="date of birth"required/>
+            </label>
+
+            <label>
+                <button class="question-button">?</button>
+            </label>
+
+                <a href="Sign Up Page2.html"><button onclick ="store()" type="submit"><img id="signup-button1"class="forward-button" src="img/forwardbutton.png"></button>
+        </form>
+    </div>
+    
+
+  
+</body>
+
+
+</html>
